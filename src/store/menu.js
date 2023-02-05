@@ -16,7 +16,7 @@ export const useTransactionStore = defineStore('transaction', {
     }
   },
   getters: {
-    totalMahasiswa: state => {
+    totalMahasiswaLulusUjiHasil: state => {
       let total = 0
       // state.transaction.forEach(item => {
       //   if (item.isIncome === false) {
@@ -24,6 +24,15 @@ export const useTransactionStore = defineStore('transaction', {
       //   }
       // })
       return "500 Mahasiswa"; //total
+    },
+    totalMahasiswaLulusUjiProposal: state => {
+      let total = 0
+      // state.transaction.forEach(item => {
+      //   if (item.isIncome === false) {
+      //     total += item.amount
+      //   }
+      // })
+      return "400 Mahasiswa"; //total
     },
     totalIncome: state => {
       let total = 0

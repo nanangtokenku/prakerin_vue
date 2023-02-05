@@ -6,7 +6,7 @@
     <div class="grid grid-cols-1 gap-3 md:grid-cols-2">
         <div>
             
-            <Card @click="router.push({ name: 'AddOutcome'})" :menu="transactionStore.totalMahasiswa" :height="120" width="full">
+            <Card @click="router.push({ name: 'AddOutcome'})" :menu="transactionStore.totalMahasiswaLulusUjiHasil" :height="120" width="full">
             <!-- <Card @click="router.push({ name: 'AddIncome'})" :menu="TESS" :height="120" width="full"> -->
                 <template #icon>
                     <CardIcon>
@@ -16,7 +16,7 @@
             </Card>
         </div>
         <div>
-            <Card @click="router.push({ name: 'AddOutcome'})" :menu="transactionStore.totalMahasiswa" :height="120" width="full">
+            <Card @click="router.push({ name: 'AddOutcome'})" :menu="transactionStore.totalMahasiswaLulusUjiProposal" :height="120" width="full">
             <!-- <Card @click="router.push({ name: 'AddOutcome'})" :amount="234" :height="120" width="full"> -->
                 <template #icon>
                     <CardIcon color="secondary">
