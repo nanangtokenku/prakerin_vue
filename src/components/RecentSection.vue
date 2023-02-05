@@ -74,13 +74,13 @@
 import { ref } from 'vue'
 import { storeToRefs } from 'pinia';
 import { TabGroup, TabList, Tab, TabPanels, TabPanel } from '@headlessui/vue'
-import { useTransactionStore } from '@/store/transaction';
+import { useMahasiswaStore } from '@/store/transaction';
 import useDateFormat from '@/composables/useDateFormat'
 import usePriceFormat from '@/composables/usePriceFormat';
 import Chip from '@/components/Chip.vue'
 import router from '../router/index';
 
-const transactionStore = useTransactionStore();
+const transactionStore = useMahasiswaStore();
 const { allTransaction, incomeTransaction, outComeTransaction } = storeToRefs(transactionStore);
 
 const categories = ref({

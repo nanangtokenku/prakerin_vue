@@ -1,6 +1,6 @@
 import { defineStore } from 'pinia'
 import { getTransactions } from '@/api/transaction.api'
-export const useTransactionStore = defineStore('transaction', {
+export const useMahasiswaStore = defineStore('transaction', {
   state: () => ({
     transaction: [] ,
   }),
