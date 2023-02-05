@@ -23,7 +23,7 @@ export const useTransactionStore = defineStore('transaction', {
       //     total += item.amount
       //   }
       // })
-      return "500 Mahasiswa"; //total
+      return "500 Mhs"; //total
     },
     totalMahasiswaLulusUjiProposal: state => {
       let total = 0
@@ -32,7 +32,7 @@ export const useTransactionStore = defineStore('transaction', {
       //     total += item.amount
       //   }
       // })
-      return "400 Mahasiswa"; //total
+      return "400 Mhs"; //total
     },
     totalIncome: state => {
       let total = 0
