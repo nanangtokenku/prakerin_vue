@@ -1,5 +1,5 @@
 <template>
-    <div :class="`${currentClass} ${textColor} ${hoverClass} p-3 flex items-center justify-center w-12 h-12 relative rounded-md`">
+    <div :class="`${currentClass} ${textColor} ${hoverClass} p-3 flex items-center justify-center w-80 h-12 relative rounded-md`">
      <slot></slot>
     </div>
 </template>

@@ -9,8 +9,8 @@
             <Card @click="router.push({ name: 'AddOutcome'})" :menu="transactionStore.totalMahasiswaLulusUjiHasil" :height="120" width="full">
             <!-- <Card @click="router.push({ name: 'AddIncome'})" :menu="TESS" :height="120" width="full"> -->
                 <template #icon>
-                    <CardIcon>
-                        <Plant className="text-[24px]" />
+                    <CardIcon :width="300">
+                        <Plant className="text-[24px]" /> Uji Proposal
                     </CardIcon>
                 </template>
             </Card>
@@ -20,7 +20,7 @@
             <!-- <Card @click="router.push({ name: 'AddOutcome'})" :amount="234" :height="120" width="full"> -->
                 <template #icon>
                     <CardIcon color="secondary">
-                        <Fire className="text-[24px]" />
+                        <Fire className="text-[24px]" /> Uji Hasil
                     </CardIcon>
                 </template>
             </Card>
@@ -34,6 +34,7 @@
 <script setup>
 import Card from '@/components/Card.vue'
 import CardIcon from '@/components/CardIcon.vue';
+import CardLabel from '@/components/CardLabel.vue'
 import Plant from '@/components/Icons/PlantIcon.vue';
 import Fire from '@/components/Icons/FireIcon.vue';
 import RecentSection from '@/components/RecentSection.vue';
