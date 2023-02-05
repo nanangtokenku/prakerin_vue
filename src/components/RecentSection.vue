@@ -38,8 +38,8 @@
               class="relative flex justify-between p-3 rounded-md hover:bg-coolGray-100"
             >
               <div>
-                <h3 class="text-sm font-medium leading-5"><b>
-                {{ transaction.nama }}
+                <h3 class="text-sm font-medium leading-5">
+                {{ transaction.id }}. <b>{{ transaction.nama }}
                 </b></h3>
 
                 <ul
