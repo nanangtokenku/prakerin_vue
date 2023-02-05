@@ -16,7 +16,7 @@ export const useTransactionStore = defineStore('transaction', {
     }
   },
   getters: {
-    totalOutCome: state => {
+    totalMahasiswa: state => {
       let total = 0
       // state.transaction.forEach(item => {
       //   if (item.isIncome === false) {
