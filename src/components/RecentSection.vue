@@ -84,8 +84,8 @@ const transactionStore = useMahasiswaStore();
 const { allTransaction, incomeTransaction, outComeTransaction } = storeToRefs(transactionStore);
 
 const categories = ref({
-  "Uji Hasil": allTransaction,
   "Uji Proposal": allTransaction,
+  "Uji Hasil": allTransaction,
   "Uji Tutup" : outComeTransaction
 })
 
