@@ -85,7 +85,7 @@ const { allTransaction, incomeTransaction, outComeTransaction } = storeToRefs(tr
 
 const categories = ref({
   "Uji Hasil": allTransaction,
-  "Uji Proposal": incomeTransaction,
+  "Uji Proposal": allTransaction,
   "Uji Tutup" : outComeTransaction
 })
 
