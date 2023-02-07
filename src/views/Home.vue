@@ -9,7 +9,7 @@
             <Card @click="router.push({ name: 'AddOutcome'})" :menu="transactionStore.totalMahasiswaLulusUjiHasil" :height="120" width="full">
             <!-- <Card @click="router.push({ name: 'AddIncome'})" :menu="TESS" :height="120" width="full"> -->
                 <template #icon>
-                    <CardIcon :width="300">
+                    <CardIcon :width="600">
                         <Plant className="text-[24px]" /> Uji Proposal
                     </CardIcon>
                 </template>

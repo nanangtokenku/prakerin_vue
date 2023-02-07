@@ -12,8 +12,8 @@ const props = defineProps({
         default: 'auto'
     },
     width: {
-        type: String,
-        default: 'auto'
+        type: Number,
+        default: 600
     },
     className: {
         type: String,
